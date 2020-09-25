@@ -7,4 +7,11 @@ Saída
 Imprima o valor lido e, em seguida, a quantidade mínima de notas de cada tipo necessárias, conforme o exemplo fornecido. Não esqueça de imprimir o fim de linha após cada linha, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 """
 inteiro = int(input())
-#menorNumerodeNotas
+print(inteiro)
+lista = [100, 50, 20, 10, 5, 2 ,1 ]
+for i in lista:
+    fatoracao = int(inteiro / i)
+    resto = int(inteiro % i)
+    print(f"{fatoracao} nota(s) de R$ {i},00" )
+    inteiro = resto
+    

@@ -65,4 +65,4 @@ elif operador == '*':
 elif operador == '/':
     divisao()
     
-# corrigir erros no calculo da divisão
+# corrigir erros no calculo da divisão  
